@@ -36,7 +36,7 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const fireApp = initializeApp(firebaseConfig);
-heroku logs --tailçç√çç
+
 // const provider = new GoogleAuthProvider();
 // provider.addScope("https://www.googleapis.com/auth/contacts.readonly");
 export const fireAuth = getAuth(fireApp);
